@@ -1,0 +1,71 @@
+:root{
+    --dark: #222831; 
+    --lighter: #393e46; 
+    --orange: #f96d00; 
+    --bglight: #f2f2f2; 
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--lighter);
+}
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: var(--dark);
+}
+.h1{
+    margin: 20px;
+    font-size: 2.2rem;
+    color: var(--bglight);
+}
+.login-page{
+    color: #f2f2f2;
+    height: 100%;
+    width: 100%;
+}
+.login-card{
+    width: 70%;
+    display: flex;
+}
+.login-header{
+    font-size:3.5rem;
+}
+.buttons{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 200px;
+}
+.google{
+    margin-bottom: 5px;
+    color: #f96d00;
+    font-size: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 320px;
+}
+.google p{
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+.facebook p{
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+.facebook{
+    display: flex;
+    color: #4267B2;
+    font-size: 3rem;
+    cursor: pointer;
+    align-items: center;
+    width: 320px;
+}

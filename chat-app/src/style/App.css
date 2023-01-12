@@ -1,0 +1,15 @@
+:root{
+    --dark: #222831; 
+    --lighter: #393e46; 
+    --orange: #f96d00; 
+    --bglight: #f2f2f2; 
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+  height: 100vh;
+}
